@@ -20,7 +20,8 @@ export type Committee = {
   short: string;
   /** Longer body shown in the detail modal. */
   description: string;
-  /** Agenda, once announced. Leave as "[To be announced]" until then. */
+  /** Agenda, once announced. Leave as "[To be announced]" until then,
+   *  or "" for a committee with no agenda (hides the Agenda section). */
   agenda: string;
   /** Optional guidance shown in the modal. Leave as "" to hide. */
   difficulty: string;
@@ -40,7 +41,8 @@ export const committees: Committee[] = [
       "A domestic simulation in which delegates represent Indian political leaders debating a national question.",
     description:
       "AIPPM breaks from UN procedure entirely. Delegates take on the roles of serving politicians and argue from party position rather than national interest, in a format that rewards rhetoric, floor presence and quick thinking. It is often the loudest and most keenly followed committee at an Indian conference.",
-        agenda: "Addressing Recent Examination Controversies with Special Emphasis on the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026",
+    agenda:
+      "Addressing Recent Examination Controversies with Special Emphasis on the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026",
     difficulty: "Open to all experience levels",
     crest: "/committee-aippm.png",
   },
@@ -52,7 +54,8 @@ export const committees: Committee[] = [
       "The First Committee of the General Assembly, where every member state holds an equal voice on questions of disarmament and global security.",
     description:
       "DISEC is the largest committee at most conferences and the natural home for first-time delegates who want a full General Assembly experience. Debate here is broad and consensus-driven: the committee cannot bind states, so its power lies in the strength of the language it agrees on. Expect a wide floor, long speakers' lists, and resolutions that must survive the scrutiny of a very large room.",
-        agenda: "Upholding Accountability under the Nuclear, Biological and Chemical Weapons Treaties (NPT, BWC, CWC) and Preventing Escalation of Compliance Disputes in Strategically Sensitive Regions",
+    agenda:
+      "Upholding Accountability under the Nuclear, Biological and Chemical Weapons Treaties (NPT, BWC, CWC) and Preventing Escalation of Compliance Disputes in Strategically Sensitive Regions",
     difficulty: "Recommended for beginners and intermediate delegates",
     crest: "/committee-disec.png",
   },
@@ -64,8 +67,8 @@ export const committees: Committee[] = [
       "The UN body responsible for promoting and protecting human rights across the world.",
     description:
       "The Human Rights Council debates the questions that sit closest to the individual — civil liberties, protection of vulnerable groups, accountability for abuses — and it does so knowing that almost every member state has something to defend. Substantive research matters enormously here: delegates are expected to argue from treaty text, reports and precedent, not sentiment.",
-    agenda: "Protecting Human Rights in West Asia Amid the Increasing Use of Artificial Intelligence and Emerging Technologies in Surveillance and Armed Conflict, with Emphasis on Civilian Protection and Accountability",
-    difficulty: "Open to all experience levels",
+    agenda:
+      "Protecting Human Rights in West Asia Amid the Increasing Use of Artificial Intelligence and Emerging Technologies in Surveillance and Armed Conflict, with Emphasis on Civilian Protection and Accountability",
     difficulty: "Recommended for intermediate delegates",
     crest: "/committee-unhrc.png",
   },
@@ -90,7 +93,8 @@ export const committees: Committee[] = [
       "Delegates cover the conference itself — reporting, interviewing and publishing on the committees in session, rather than debating in one.",
     description:
       "The International Press corps moves between committee rooms as journalists and photographers, filing stories, interviewing delegates and producing the conference's own bulletin as the day unfolds. It suits delegates who write well under deadline and would rather uncover a story than deliver one — access, curiosity and a sharp editorial eye matter more than command of procedure.",
-        agenda: "[To be annouced]",
+    agenda: "[To be annouced]",
+    difficulty: "Open to all experience levels",
     crest: "/committee-ip.png",
   },
 ];

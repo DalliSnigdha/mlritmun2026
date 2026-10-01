@@ -40,7 +40,7 @@ export const committees: Committee[] = [
       "A domestic simulation in which delegates represent Indian political leaders debating a national question.",
     description:
       "AIPPM breaks from UN procedure entirely. Delegates take on the roles of serving politicians and argue from party position rather than national interest, in a format that rewards rhetoric, floor presence and quick thinking. It is often the loudest and most keenly followed committee at an Indian conference.",
-    agenda: "[To be announced]",
+        agenda: "Addressing Recent Examination Controversies with Special Emphasis on the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026",
     difficulty: "Open to all experience levels",
     crest: "/committee-aippm.png",
   },
@@ -52,7 +52,7 @@ export const committees: Committee[] = [
       "The First Committee of the General Assembly, where every member state holds an equal voice on questions of disarmament and global security.",
     description:
       "DISEC is the largest committee at most conferences and the natural home for first-time delegates who want a full General Assembly experience. Debate here is broad and consensus-driven: the committee cannot bind states, so its power lies in the strength of the language it agrees on. Expect a wide floor, long speakers' lists, and resolutions that must survive the scrutiny of a very large room.",
-    agenda: "[To be announced]",
+        agenda: "Upholding Accountability under the Nuclear, Biological and Chemical Weapons Treaties (NPT, BWC, CWC) and Preventing Escalation of Compliance Disputes in Strategically Sensitive Regions",
     difficulty: "Recommended for beginners and intermediate delegates",
     crest: "/committee-disec.png",
   },
@@ -89,7 +89,7 @@ export const committees: Committee[] = [
       "Delegates cover the conference itself — reporting, interviewing and publishing on the committees in session, rather than debating in one.",
     description:
       "The International Press corps moves between committee rooms as journalists and photographers, filing stories, interviewing delegates and producing the conference's own bulletin as the day unfolds. It suits delegates who write well under deadline and would rather uncover a story than deliver one — access, curiosity and a sharp editorial eye matter more than command of procedure.",
-    agenda: "[To be announced]",
+        agenda: "Protecting Human Rights in West Asia Amid the Increasing Use of Artificial Intelligence and Emerging Technologies in Surveillance and Armed Conflict, with Emphasis on Civilian Protection and Accountability",
     difficulty: "Open to all experience levels",
     crest: "/committee-ip.png",
   },

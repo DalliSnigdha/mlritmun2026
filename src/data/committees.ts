@@ -64,7 +64,8 @@ export const committees: Committee[] = [
       "The UN body responsible for promoting and protecting human rights across the world.",
     description:
       "The Human Rights Council debates the questions that sit closest to the individual — civil liberties, protection of vulnerable groups, accountability for abuses — and it does so knowing that almost every member state has something to defend. Substantive research matters enormously here: delegates are expected to argue from treaty text, reports and precedent, not sentiment.",
-    agenda: "[To be announced]",
+    agenda: "Protecting Human Rights in West Asia Amid the Increasing Use of Artificial Intelligence and Emerging Technologies in Surveillance and Armed Conflict, with Emphasis on Civilian Protection and Accountability",
+    difficulty: "Open to all experience levels",
     difficulty: "Recommended for intermediate delegates",
     crest: "/committee-unhrc.png",
   },
@@ -89,8 +90,7 @@ export const committees: Committee[] = [
       "Delegates cover the conference itself — reporting, interviewing and publishing on the committees in session, rather than debating in one.",
     description:
       "The International Press corps moves between committee rooms as journalists and photographers, filing stories, interviewing delegates and producing the conference's own bulletin as the day unfolds. It suits delegates who write well under deadline and would rather uncover a story than deliver one — access, curiosity and a sharp editorial eye matter more than command of procedure.",
-        agenda: "Protecting Human Rights in West Asia Amid the Increasing Use of Artificial Intelligence and Emerging Technologies in Surveillance and Armed Conflict, with Emphasis on Civilian Protection and Accountability",
-    difficulty: "Open to all experience levels",
+        agenda: "[To be annouced]",
     crest: "/committee-ip.png",
   },
 ];

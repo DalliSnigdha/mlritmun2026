@@ -14,9 +14,9 @@ type RegistrationRoute = {
 export function Registration() {
   const routes: RegistrationRoute[] = [
     {
-      label: "Priority Round",
+      label: "First Round",
       description:
-        "Limited early-access seats before general registration opens. Takes a few minutes on Google Forms — have your committee preferences ready.",
+        "First round registrations are now open. Takes a few minutes on Google Forms — have your committee preferences ready.",
       icon: "bolt",
       href: site.registration.priorityFormUrl,
       cta: "Register Here",

@@ -29,7 +29,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How do I register?",
     answer:
-      "Head to the Registration section and open the Priority Round form — it's hosted on Google Forms and takes a few minutes: your personal details, a short note on any previous MUN experience, and three committee preferences. Bringing a group from your school or college? A dedicated group delegation form is coming soon.",
+      "Head to the Registration section and open the First Round form — it's hosted on Google Forms and takes a few minutes: your personal details, a short note on any previous MUN experience, and three committee preferences. Bringing a group from your school or college? A dedicated group delegation form is coming soon.",
   },
   {
     question: "Can I choose my committee?",

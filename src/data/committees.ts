@@ -80,8 +80,8 @@ export const committees: Committee[] = [
       "A single, fast-moving crisis scenario that evolves in real time as delegates act, rather than debate, their way through it.",
     description:
       "The CCC drops delegates into individual character portfolios inside one unfolding crisis, updated continuously by the executive board through crisis notes, breaking news and sudden developments. There is no fixed agenda to research in advance — the committee rewards improvisation, private strategy and decisive action over prepared speeches. Expect long, unpredictable sessions, with consequences that carry from one update to the next.",
-    agenda: "[To be announced]",
-    difficulty: "Recommended for experienced delegates",
+    agenda: "Salaar😎",
+    difficulty: "Recommended for all experience levels",
     crest: "/committee-ccc.png",
     special: true,
   },
